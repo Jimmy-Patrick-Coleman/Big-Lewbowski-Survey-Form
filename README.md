@@ -1,5 +1,8 @@
-A reupload of my big lewbowski survey form becuase i deleted it when i changed my username becuase it was eaiser to reupload then to deal with the remote urls and such.
+This is a reupload of my original project it was made for Free Code Camp.
 
-This is a big lewbowski survey form For Free Code Camp.
-I hope you enjoy.
-view at https://jimmypcoleman.github.io/Big-Lewbowski-Survey-Form/. 
+It had to be deleted because reuploading was faster than dealing with changing the remote url as i messed that up its sad i lost the commit timeline though as you can no longer see how the code developed over the week.
+
+This is my big lewbowski survey form.
+
+view at https://jimmypcoleman.github.io/Big-Lewbowski-Survey-Form/
+
