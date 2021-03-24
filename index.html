@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>The Big Lebowski Survey Form</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <main>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+            <div id="big-div">
+            <div id="non-form-div">
+            <h1 id="title">The Big Lebowski Survey Form</h1>
+            <p id="description">This form is just some coding fun by a fan of the dude who wants to see the style of his fellow Big lebowski fans</p>
+            </div>
+
+          <div id="big-form-div">
+              <form id="survey-form">
+                  <div class="form-div">
+                    <label for="email" id="email-label">Enter your email</label>
+                    <input type="email" id="email" required placeholder="something@something.com">
+               </div>
+                <div class="form-div">
+                    <label for="name" id="name-label">Enter your full name</label>
+                    <input type="text" id="name" required placeholder="Firstname Lastname">
+                   </div>
+                    <div class="form-div">
+                    <label for="number" id="number-label">Enter Your age</label>
+                    <input type="number" id="number" required min="0" max="120" placeholder="18">
+                </div>
+                <div>
+                    <p>Who is your faviourite charecter</p>
+                    <label for="The-Dude">The Dude</label>
+                    <input type="radio" name="actors" value="The-Dude" id="The-Dude">
+                    <label for="Walter">Walter</label>
+                    <input type="radio" name="actors" value="Walter" id="Walter">
+                    <label for="Maude">Maude</label>
+                    <input type="radio" name="actors" value="Maude" id="Maude">
+                    <label for="Donnie">Donnie</label>
+                    <input type="radio" name="actors" value="Donnie" id="Donnie">
+                    <label for="The-Stranger">The Stranger</label>
+                    <input type="radio" name="actors" value="The-Stranger" id="The-Stranger">         
+                </div>
+                <div>
+                    <p>Have you ever gone bowling</p>
+                    <label for="yes">Yes</label>
+                    <input type="checkbox" value="yes" id="yes">
+                    <label for="no">no</label>
+                    <input type="checkbox" value="no" id="no">
+                </div>
+                <div id="dropdown-form-div">
+                     <p>Do you dig the dudes style</p>
+                     <select id="dropdown">
+                     <option value="Yes">Yes</option>
+                      <option value="Some-of-it">Some of it</option>
+                      <option value="What">what</option>
+                      <option value="no">no</option>
+                      <option value="Nooooo">Of course not hes a bum blah blah</option>
+                </select>
+                </div>
+                <div class="form-div">   
+                        <textarea required>Please send us feedback and any other information</textarea>
+                </div>
+                <div class="form-div"> 
+                      <button type="reset" id="reset">Reset</button>
+                      <button type="submit" id="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+        </div>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>

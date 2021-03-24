@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+main{
+    background-image: url(images/1758052.jpg);
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#big-div {
+    height: auto;
+    margin: auto;
+    width: 50%;
+    
+}
+#non-form-div {
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px; 
+    background-color: purple;
+}
+.form-div {
+    height: auto;
+    margin: auto;
+    width: 50%;
+}
+#dropdown-form-div {
+justify-content: space-around;
+}
+#survey-form {
+    background-color: blue;
+    height: auto;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
